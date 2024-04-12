@@ -90,11 +90,11 @@ const AboutSection = () => {
         </p>
       </div>
       <div className="flex justify-center ">
-        <Fade direction="right">
-          <div className="w-80 h-80 flex justify-center border-8 border-purple-500 bg-white rounded-full ms-5  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300">
-            <img src={ProfileImage} className="w-80 rounded-full " />
-          </div>
-        </Fade>
+        {/* <Fade direction="right"> */}
+        <div className="w-80 h-80 flex justify-center border-8 border-purple-500 bg-white rounded-full ms-5  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300">
+          <img src={ProfileImage} className="w-80 rounded-full " />
+        </div>
+        {/* </Fade> */}
       </div>
     </div>
   );
