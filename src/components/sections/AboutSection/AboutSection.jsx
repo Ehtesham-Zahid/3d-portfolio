@@ -8,11 +8,11 @@ const AboutSection = () => {
   return isMobile ? (
     <div className="h- w-full grid grid-cols-1 px-10" name="about-section">
       <div className="flex justify-center col-span-1 ">
-        <Fade direction="right">
-          <div className="w-64 h-64 md:w-80 md:h-80 flex justify-center border-8 border-purple-500 bg-white rounded-full ms-5  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300">
-            <img src={ProfileImage} className="w-64 md:w-80 rounded-full " />
-          </div>
-        </Fade>
+        {/* <Fade direction="right"> */}
+        <div className="w-64 h-64 md:w-80 md:h-80 flex justify-center border-8 border-purple-500 bg-white rounded-full ms-5  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300">
+          <img src={ProfileImage} className="w-64 md:w-80 rounded-full " />
+        </div>
+        {/* </Fade> */}
       </div>
       <div className=" text-black col-span-1">
         <p className="text-3xl md:text-4xl text-center mb-5 mt-2 font-bold">
