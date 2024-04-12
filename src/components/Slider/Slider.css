@@ -1,0 +1,21 @@
+.slider1 {
+  background-image: url("../../assets/Images/Slider/slider-17.jpg");
+  /* opacity: 0.5; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background-blend-mode: lighten; */
+}
+
+.slider2 {
+  background-image: url("../../assets/Images/Slider/slider-18.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slider3 {
+  background-image: url("../../assets/Images/Slider/slider-19.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
