@@ -13,13 +13,13 @@ const HomeSection = () => {
     >
       {/* <div className="grid grid-cols-2 pt-44">
         <div className="col-span-1 flex flex-col justify-center items-center">
-          <p className="text-black font-medium text-3xl">
+          <p className="text-white font-medium text-3xl">
             Hi, My name is{" "}
-            <strong className="text-purple-500 animate-bounce">
-              Ehtesham Zahid
+            <strong className="text-cyan-400 animate-bounce">
+              Jürgen Halt
             </strong>
           </p>
-          <p className="text-purple-500 text-3xl font-bold mt-5 ">
+          <p className="text-cyan-400 text-3xl font-bold mt-5 ">
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
@@ -41,7 +41,7 @@ const HomeSection = () => {
             scene="https://prod.spline.design/slOF-fMS9Zc0bFBi/scene.splinecode"
             // className=""
           />
-          {/* <p className="text-3xl text-black font-bold">
+          {/* <p className="text-3xl text-white font-bold">
             Animation Will Come HERE
           </p> */}
       {/* </div> */}

@@ -12,9 +12,9 @@ const ContactDetails = () => {
           src={EmailImage}
           className="w-10 rounded-full m-3 bg-red-500 p-1 transition ease-in   hover:-translate-y-1 hover:scale-110 duration-200 cursor-pointer"
         /> */}
-        <EmailIcon className="text-purple-500 " fontSize="medium" />
-        <p className="text-black mx-2  text-lg truncate">
-          ehteshamzahid313@gmail.com
+        <EmailIcon className="text-cyan-400 " fontSize="medium" />
+        <p className="text-white mx-2  text-lg truncate">
+          jurgenhalt@gmail.com
         </p>
       </div>
       <div className="flex my-8">
@@ -22,16 +22,16 @@ const ContactDetails = () => {
           src={TelephoneImage}
           className="w-10 rounded-full m-3 bg-red-500 p-1 transition ease-in   hover:-translate-y-1 hover:scale-110 duration-200 cursor-pointer"
         /> */}
-        <CallIcon className="text-purple-500 " fontSize="medium" />
-        <p className="text-black mx-2  text-lg">+92 3080554483</p>
+        <CallIcon className="text-cyan-400 " fontSize="medium" />
+        <p className="text-white mx-2  text-lg">+92 3080554483</p>
       </div>
       <div className="flex my-8">
         {/* <img
           src={LocationImage}
-          className="w-10 rounded-full m-3 bg-purple-500 p-1 transition ease-in   hover:-translate-y-1 hover:scale-110 duration-200 cursor-pointer"
+          className="w-10 rounded-full m-3 bg-cyan-400 p-1 transition ease-in   hover:-translate-y-1 hover:scale-110 duration-200 cursor-pointer"
         /> */}
-        <LocationOnIcon className="text-purple-500 " fontSize="medium" />
-        <p className="text-black mx-2 text-lg">Lahore, Pakistan</p>
+        <LocationOnIcon className="text-cyan-400 " fontSize="medium" />
+        <p className="text-white mx-2 text-lg">Lahore, Pakistan</p>
       </div>
       {/* <SocialDetails /> */}
     </div>

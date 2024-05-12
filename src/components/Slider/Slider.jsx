@@ -25,7 +25,7 @@ import { Link } from "react-scroll";
 
 const Slider = () => {
   return (
-    <div className="text-black">
+    <div className="text-white">
       <Swiper
         modules={[
           Navigation,
@@ -50,7 +50,7 @@ const Slider = () => {
       >
         <SwiperSlide className=" slider1  flex flex-col justify-center pt-28 ps-20">
           {/* <img src={ProfileImage} className="" /> */}
-          <p className="text-black text-5xl text-start font-bold mb-14">
+          <p className="text-white text-5xl text-start font-bold mb-14">
             Strategic Planning
           </p>
           <p className="text-xl font-medium text-gray-800 mb-14 w-96">
@@ -68,7 +68,7 @@ const Slider = () => {
         <SwiperSlide className=" slider2 opa flex flex-col justify-center items pt-28 ps-20">
           {/* <img src={ProfileImage} className="" /> */}
           <div>
-            <p className="text-black text-5xl text-start font-bold mb-14">
+            <p className="text-white text-5xl text-start font-bold mb-14">
               Financial Management
             </p>
             <p className="text-xl text-start font-medium text-gray-800 mb-14 w-96">
@@ -88,7 +88,7 @@ const Slider = () => {
                   // offset={-70}
                   duration={500}
                   // onSetActive={handleSetActive}
-                  // className="hover:text-purple-400 hover:border-b-4 border-purple-400 cursor-pointer  "
+                  // className="hover:text-cyan-400 hover:border-b-4 border-purple-400 cursor-pointer  "
                 >
                   Contact Now
                 </Link>
@@ -98,10 +98,10 @@ const Slider = () => {
         </SwiperSlide>{" "}
         <SwiperSlide className=" slider3  flex flex-col justify-center pt-28 ps-20">
           {/* <img src={ProfileImage} className="" /> */}
-          <p className="text-black text-5xl  text-start font-bold mb-14">
+          <p className="text-white text-5xl  text-start font-bold mb-14">
             Market Research and Analysis
           </p>
-          <p className="text-xl font-medium text-black mb-14 w-96">
+          <p className="text-xl font-medium text-white mb-14 w-96">
             Strategic planning is the cornerstone of long-term success for any
             organization. By aligning business objectives with market
             opportunities and internal capabilities, strategic planning enables

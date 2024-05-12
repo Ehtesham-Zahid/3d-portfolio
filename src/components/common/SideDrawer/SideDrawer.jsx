@@ -29,7 +29,7 @@ const SideDrawer = () => {
     <Sheet>
       <div className="flex justify-end fixed right-3 top-3">
         <SheetTrigger>
-          <MenuIcon className="text-purple-500 mt-1 " fontSize="large" />
+          <MenuIcon className="text-cyan-400 mt-1 " fontSize="large" />
         </SheetTrigger>
       </div>
       <SheetContent side="left">
@@ -45,7 +45,7 @@ const SideDrawer = () => {
                   offset={-30}
                   duration={500}
                 >
-                  <HomeIcon className="me-2 text-purple-500" /> Home
+                  <HomeIcon className="me-2 text-cyan-400" /> Home
                 </Link>
               </SheetClose>
             </li>
@@ -59,11 +59,11 @@ const SideDrawer = () => {
                   offset={-30}
                   duration={500}
                 >
-                  <PersonIcon className="me-2 text-purple-500" /> About
+                  <PersonIcon className="me-2 text-cyan-400" /> About
                 </Link>
               </SheetClose>
             </li>
-            <li className="my-2  font-semibold">
+            {/* <li className="my-2  font-semibold">
               <SheetClose asChild>
                 <Link
                   // activeClass="active"
@@ -73,10 +73,10 @@ const SideDrawer = () => {
                   offset={-30}
                   duration={500}
                 >
-                  <WorkIcon className="me-2 text-purple-500" /> Services
+                  <WorkIcon className="me-2 text-cyan-400" /> Services
                 </Link>
               </SheetClose>
-            </li>
+            </li> */}
             <li className="my-2  font-semibold">
               <SheetClose asChild>
                 <Link
@@ -87,7 +87,7 @@ const SideDrawer = () => {
                   offset={-30}
                   duration={500}
                 >
-                  <LocalPhoneIcon className="me-2 text-purple-500" /> Contact
+                  <LocalPhoneIcon className="me-2 text-cyan-400" /> Contact
                 </Link>
               </SheetClose>
             </li>

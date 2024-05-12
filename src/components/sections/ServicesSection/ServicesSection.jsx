@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 const ServicesSection = () => {
   return (
     <div name="services-section">
-      <p className="text-purple-500 font-black text-center text-4xl sm:text-5xl  sm:mb-10">
+      <p className="text-cyan-400 font-black text-center text-4xl sm:text-5xl  sm:mb-10">
         My Services
       </p>
       <div className=" slider1  flex flex-col justify-center  ps-4 sm:ps-20 h py-12 my-12">

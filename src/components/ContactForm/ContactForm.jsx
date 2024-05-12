@@ -10,28 +10,28 @@ const ContactForm = () => {
   return (
     <div className="flex flex-col p-6 col-span-4 sm:col-span-2 lg:col-span-1 mx-auto sm:m-5  w-5/6 sm:w-full">
       <div className="flex flex-col my-5">
-        <label className="text-purple-500 text-lg">Name</label>
+        <label className="text-cyan-400 text-lg">Name</label>
         <Input
           type="text"
           id="name"
           placeholder="Enter Your Name"
-          className="border-2 border-purple-500 "
+          className="border-2 border-cyan-500 "
         />
       </div>
       <div className="flex flex-col my-5">
-        <label className="text-purple-500 text-lg">Email</label>
+        <label className="text-cyan-400 text-lg">Email</label>
         <Input
           type="email"
           id="email"
           placeholder="Enter Your Email"
-          className="border-2 border-purple-500"
+          className="border-2 border-cyan-500"
         />
       </div>
       <div className="flex flex-col my-5">
-        <label className="text-purple-500 text-lg">Message</label>
+        <label className="text-cyan-400 text-lg">Message</label>
         <Textarea
           placeholder="Enter Your Message"
-          className="border-2 border-purple-500"
+          className="border-2 border-cyan-500"
         />
       </div>
       <div className="flex justify-center md:justify-start">
